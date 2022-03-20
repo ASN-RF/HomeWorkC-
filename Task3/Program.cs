@@ -4,12 +4,7 @@
                                                                   7 -> нет*/
 Console.WriteLine("Привет!");
 Console.WriteLine("Введите ваше любимое число: ");
-/* Так как в задаче не было указанно, что число должно быть целым, 
-   был использован оператор double, в связи с тем что множестов чисел doble > integer
-   Однако после команды double, в коменнариях приводится команда с оператором int, 
-   которая была протестирована на работоспособность*/ 
-
-double a = Convert.ToDouble(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 /* int = a = Convert.ToInt32(Console.ReadLine()); */
 if (a%2 == 0)
 {
@@ -23,5 +18,3 @@ else
     Console.Write(a); 
     Console.WriteLine(" - НЕЧЕТНОЕ");
 }
-        
-       
