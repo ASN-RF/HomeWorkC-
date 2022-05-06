@@ -22,8 +22,10 @@ for (int i = 0; i < razmer; i++)
     if (a[i] > max) max = a[i];
     if (a[i] < min) min = a[i];
 }
-sum = max + min;
+sum = max - min;
 Console.WriteLine(" --> " + sum);
+Console.WriteLine("Разница между максимальным и минимальным элементом массива равна " + sum);
+Console.WriteLine("Давайте проверим, итак:");
 Console.WriteLine("Максимальноое значение = " + max);
 Console.WriteLine("Минимальное значение = " + min);
 if (min < 0)
