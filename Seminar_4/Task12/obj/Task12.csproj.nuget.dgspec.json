@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gr_n RF\\Desktop\\GeekBrains\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj": {}
+    "E:\\GeekBrains\\Developer\\4. C#\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gr_n RF\\Desktop\\GeekBrains\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj": {
+    "E:\\GeekBrains\\Developer\\4. C#\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gr_n RF\\Desktop\\GeekBrains\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj",
+        "projectUniqueName": "E:\\GeekBrains\\Developer\\4. C#\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj",
         "projectName": "Task12",
-        "projectPath": "C:\\Users\\Gr_n RF\\Desktop\\GeekBrains\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj",
+        "projectPath": "E:\\GeekBrains\\Developer\\4. C#\\HomeWorkC-\\Seminar_4\\Task12\\Task12.csproj",
         "packagesPath": "C:\\Users\\Gr_n RF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gr_n RF\\Desktop\\GeekBrains\\HomeWorkC-\\Seminar_4\\Task12\\obj\\",
+        "outputPath": "E:\\GeekBrains\\Developer\\4. C#\\HomeWorkC-\\Seminar_4\\Task12\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gr_n RF\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
