@@ -16,7 +16,7 @@ void NewMatrix(int[,] matrix1)
         }
     }
 }
-void printmatrix1ix(int[,] matrix1)
+void printmatrix(int[,] matrix1)
 {
     for (int i = 0; i < matrix1.GetLength(0); i++)
     {
@@ -35,4 +35,4 @@ int column = Convert.ToInt32(Console.ReadLine());
 int[,] matrix = new int[row, column];
 Console.WriteLine(row + ", " + column + " -> ");
 NewMatrix(matrix);
-printmatrix1ix(matrix);
+printmatrix(matrix);
