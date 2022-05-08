@@ -72,8 +72,8 @@ int[,] matrix = new int[m, n];
 Console.WriteLine("Вот такая красивая матрица у Вас получилась:");
 RandomMatrix(matrix);
 PrintMatrix(matrix);
-Console.WriteLine("В связи с тем что условие задания и пример расходятся, какое решения хотели бы увидеть?");
-Console.WriteLine("Если решение согласно условия задания, то введите 1 и нажмите -Enter-");
+Console.WriteLine("В связи с тем, что условие задания и пример расходятся, какое решения хотели бы увидеть?");
+Console.WriteLine("Если Вам требуется решение, согласно условия задания, то введите 1 и нажмите -Enter-");
 Console.WriteLine("Если согласно примера, то 2 и тоже -Enter-");
 int a = Convert.ToInt32(Console.ReadLine());
 if (a == 1)
