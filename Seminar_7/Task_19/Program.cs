@@ -11,7 +11,7 @@
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(-99,100);
+            matrix[i, j] = Math.Round(new Random().Next(-99, 100) + new Random().NextDouble(), 2);
         }
     }
     return matrix;
@@ -46,10 +46,11 @@ void RandomMatrix(int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            matrix[i, j] = new Random().Next(-99, 100);
+            // matrix[i, j] = new Random().Next(-99, 100);
+            matrix[i, j] = Math.Round(new Random().Next(-99, 100) + new Random().NextDouble(), 2);
             Console.Write($"{matrix[i, j]} ");
         }
-    Console.WriteLine();
+        Console.WriteLine();
     }
 }
 RandomMatrix(3, 4);
