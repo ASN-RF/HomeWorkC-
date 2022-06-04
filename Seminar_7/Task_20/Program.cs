@@ -21,7 +21,7 @@ void RandomMatrix(int line, int column)
     }
     if (line < 0 | line > m - 1 | column < 0 | column > n - 1)
     {
-        Console.WriteLine("(" + line + ", " + column + ")" + " --> " + "Такого элемента в массиве нет. Место вакантно!");
+        Console.WriteLine("(" +  (line + 1) + ", " + (column+1) + ")" + " --> " + "Такого элемента в массиве нет. Место вакантно!");
     }
     else
     {
