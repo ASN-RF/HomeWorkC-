@@ -47,7 +47,7 @@ void PrintMatrix(int[,] array)
         Console.WriteLine();
     }
 }
-Console.WriteLine("Здравствуйте! Введите количество строк Вашей матрицы (оно должно быть больше 0):");
+Console.WriteLine("Здравствуйте! Введите размер Вашей квадратной матрицы (оно должно быть больше 0):");
 Console.Write("m  = ");
 int m = Convert.ToInt32(Console.ReadLine());
 int n = m + 1;  // !!!Чтобы матрица была прямоугольная!!!
