@@ -23,7 +23,7 @@ void Degree(int c, int d)
         rezult = rezult * c;
         l++;
     }
-    Console.WriteLine(x + ", " + y + "--> " + rezult);
+    Console.WriteLine(x + ", " + y + " --> " + rezult);
 }
 int A, B;
 Console.WriteLine("Введите первое число (А): ");
