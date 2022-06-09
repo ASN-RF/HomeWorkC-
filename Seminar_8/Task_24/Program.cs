@@ -5,115 +5,65 @@
                                                       75(0,1,0) 31(0,1,1)
                                                       45(1,0,0) 53(1,0,1)
                                                       32(1,1,0) 23(1,1,1) */
-/*void ArrayNoRandom(int y)
+int[] CreateArray(int x, int y, int w) // ФУНКЦИЯ создает одномерный массив данных из последовательных чисел, затем все эелементы случайным образом перемещивает
 {
-    int x = 10;
-    int[] array0 = new int[y];
-    int i = 0;
-    while (x < 99)
+    int[] Array = new int[x * y * w];
+    int count = 10; // 10-т.к. двузначных
+    int temp = 0;
+    for (int i = 0; i < Array.Length; i++)
     {
-        array0[i] = x;
-        x++;
-        Console.Write($"{array0[i]} , ");
-        i++;
+        Array[i] = count;
+        count++;
     }
-    while (x == 99)
+    for (int i = 0; i < Array.Length / 2; i++)   // Немного перемещиваем :) Хотя в условии про это не написано.
     {
-        array0[i] = x;
-        x++;
-        Console.Write($"{array0[i]}");
-        i++;
+        int j = new Random().Next((Array.Length / 2), Array.Length);
+        temp = Array[i];
+        Array[i] = Array[j];
+        Array[j] = temp;
     }
+    return Array;
 }
-void GetRandomArr(ref int[] arr)
+void ConsolPleasePrintMoyArray(int x, int y, int w, int[] Array) // Просим любимую консоль вывести массив
 {
-    Random random = new Random();
-    for (int i = 0; i < arr.Length; i++)
+    int[,,] Array3D = new int[x, y, w];
+    int count = 0;
+    for (int i = 0; i < Array3D.GetLength(0); i++)
     {
-        var num = random.Next(min, max);
-
-        if (arr.Contains(num))
+        for (int j = 0; j < Array3D.GetLength(1); j++)
         {
-            i--;
-        }
-        else
-        {
-            arr[i] = num;
-        }
-    }
-}*/
-
-/*void RandomMatrix(int[,,] array)
-{
-    int x = 10;
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            for (int k = 0; k < array.GetLength(2); k++)
+            for (int z = 0; z < Array3D.GetLength(2); z++)
             {
-                array[i, j, k] = new Random().Next(10, 99);
-            }
-        }
-        while (array[i] = array[j])
-        {
-            array[i]++;
-        }
-    }
-
-}*/
-int[,,] CreateKub(int row, int col, int layer)
-{
-    int[,,] array = new int[row, col, layer];
-    for (int i = 0; i < row; i++)
-    {
-        for (int j = 0; j < col; j++)
-        {
-            for (int k = 0; k < layer; k++)
-            {
-                bool flag = true;
-                while (flag)
-                {
-                    flag = false;
-                    int kandidat = new Random().Next(10, 99);
-                    for (int i1 = 0; i1 < row; i1++)
-                    {
-                        for (int j1 = 0; j1 < col; j1++)
-                        {
-                            for (int k1 = 0; k1 < layer; k1++)
-                            {
-                                if (array[i1, j1, k1] == kandidat) flag = true;
-
-                            }
-                        }
-                    }
-                    if (!flag) array[i, j, k] = kandidat;
-
-                }
-
-            }
-        }
-    }
-    return array;
-}
-void PrintMatrix(int[,,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            for (int k = 0; k < array.GetLength(2); k++)
-            {
-                Console.Write($"{array[i, j, k]} {(i, j, k)} ");
+                Array3D[i, j, z] = Array[count];
+                count++;
+                Console.Write($"{Array3D[i, j, z]}{(i, j, z)} ");
             }
             Console.WriteLine();
         }
     }
 }
-int m = 2;
-int n = 2;
-int l = 2;
-int[,,] matrix = new int[m, n, l];
-Console.WriteLine("Решение задачи 3 ДЗ к семинару 8:");
-RandomMatrix(matrix);
-PrintMatrix(matrix);
+Console.WriteLine("Здравствуйте! Если Вы хотите увидеть решение, согласно примера с трехмерным массивом размером 2х2х2, то введите 1 и нажмите 'Enter', если хотите ввести сами размерность, то введите 2 и нажмите 'Enter'");
+Console.WriteLine("1 и 'Enter' - как в примере");
+Console.WriteLine("2 и 'Enter' - самостоятельно ввести");
+int Vubor1 = Convert.ToInt32(Console.ReadLine());
+if (Vubor1 == 1)
+{
+    ConsolPleasePrintMoyArray(2, 2, 2, CreateArray(2, 2, 2));
+}
+if (Vubor1 == 2)
+{
+    Console.WriteLine("Введите кооринату x:");
+    int a = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите кооринату y:");
+    int b = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите кооринату z:");
+    int c = Convert.ToInt32(Console.ReadLine());
+    Console.Clear();
+    ConsolPleasePrintMoyArray(a, b, c, CreateArray(a, b, c));
+}
+else
+{
+    Console.WriteLine("К сожалению, при реализации данной программы было предусмотренно всего 2 варианта выбора! Желаем удачи!");
+}
+
+
