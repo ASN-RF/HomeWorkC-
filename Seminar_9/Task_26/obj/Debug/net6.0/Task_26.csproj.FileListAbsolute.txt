@@ -1,0 +1,15 @@
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\bin\Debug\net6.0\Task_26.exe
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\bin\Debug\net6.0\Task_26.deps.json
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\bin\Debug\net6.0\Task_26.runtimeconfig.json
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\bin\Debug\net6.0\Task_26.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\bin\Debug\net6.0\Task_26.pdb
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.csproj.AssemblyReference.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.AssemblyInfoInputs.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.AssemblyInfo.cs
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\refint\Task_26.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.pdb
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\Task_26.genruntimeconfig.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_9\Task_26\obj\Debug\net6.0\ref\Task_26.dll
