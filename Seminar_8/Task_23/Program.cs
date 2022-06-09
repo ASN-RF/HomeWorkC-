@@ -57,6 +57,6 @@ RandomMatrix(matrix);
 PrintMatrix(matrix);
 Console.WriteLine("Решение:");
 FindingMinSumStr(matrix);
-int count = Convert.ToString(matrix).Length ;
+int count = Convert.ToString(matrix)!.Length ;
 Console.WriteLine(count);
 
