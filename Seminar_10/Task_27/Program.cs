@@ -53,6 +53,7 @@ void MagicArray(int[] ArrayInfo, int[] ArrayData)
         }
     }
 }
+Console.WriteLine("Вводные данные:");
 Console.Write("data");
 PrintArray(ArrayDat);
 Console.Write("info");
