@@ -17,10 +17,7 @@
 int[] ArrayData1 = { 0, 1, 1, 1, 1, 0, 0, 0, 1 };
 int[] ArrayInfo1 = { 2, 3, 3, 1 };
 int[] ArrayData2 = { 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 2, 3 };
-// int[] ArrayInfo2 = { 2, 3, 3, 1 };
-// int[] ArrayData3 = { 0, 1, 1, 1, 1, 0, 0, 0, 1 };
 int[] ArrayInfo2 = { 2, 3, 3, 5 };
-
 void PrintArray(int[] Array)
 {
     Console.Write(" = {");
@@ -117,7 +114,6 @@ void Reshenie(int[] ArrayInfo, int[] ArrayData)
     }
     Console.WriteLine();
 }
-
 Console.Clear();  // Для удобства отоброжения (очистка консоли)
 Console.WriteLine("Для удобства проверки задания можем предложить Вам 4 варианта:");
 Console.WriteLine("1 вариант - использовать пример, где массива 'data' содержит объем информации, РАВНЫЙ охвату массива 'info' (пример из задания)\n2 вариант - использовать пример, где массива 'data' содержит БОЛЬШЕ информации, чем охватывает массива 'info'");
