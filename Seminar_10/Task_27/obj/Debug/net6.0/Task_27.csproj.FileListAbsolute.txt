@@ -1,0 +1,15 @@
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\bin\Debug\net6.0\Task_27.exe
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\bin\Debug\net6.0\Task_27.deps.json
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\bin\Debug\net6.0\Task_27.runtimeconfig.json
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\bin\Debug\net6.0\Task_27.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\bin\Debug\net6.0\Task_27.pdb
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.csproj.AssemblyReference.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.AssemblyInfoInputs.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.AssemblyInfo.cs
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\refint\Task_27.dll
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.pdb
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\Task_27.genruntimeconfig.cache
+E:\GeekBrains\Developer\4. C#\HomeWorkC-\Seminar_10\Task_27\obj\Debug\net6.0\ref\Task_27.dll
